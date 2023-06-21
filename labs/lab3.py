@@ -71,3 +71,6 @@ def TowerOfHanoi( numDisk, towerOne, towerTwo, towerThree):
         print( str(towerOne) + " to " + str(towerThree))
         TowerOfHanoi(numDisk -1 , towerTwo, towerOne, towerThree)
         
+
+if __name__ == "__main__":
+     print(factorial(5))
